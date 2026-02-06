@@ -12,14 +12,16 @@ export default function BlakeschildHome() {
     "Manpower Development",
   ];
 
-  const sectors = [
-    "Oil & Gas",
-    "Power",
-    "Telecoms",
-    "Real Estate",
-    "Manufacturing",
-    "Maritime",
-  ];
+const sectors = [
+  "Oil & Gas",
+  "Power",
+  "Telecoms",
+  "Real Estate",
+  "Manufacturing",
+  "Maritime",
+  "Agriculture", // <-- Added
+];
+
 
   const leadership = [
     {
@@ -110,7 +112,7 @@ export default function BlakeschildHome() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 md:px-20 text-center">
         <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
-        <p className="text-lg mb-2">6 Adejoke Sokoya Street, Unity Estate, Ojodu, Lagos, Nigeria</p>
+        <p className="text-lg mb-2">112 Aba Road, Garrison, Port Harcourt, Rivers, Nigeria</p>
         <p className="mb-6">Email: <a href="mailto:info@blakeschild.com" className="text-blue-600">info@blakeschild.com</a></p>
         <button className="bg-blue-700 hover:bg-blue-800 text-white font-semibold px-6 py-2 rounded-lg">
           Send a Message
@@ -119,7 +121,7 @@ export default function BlakeschildHome() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-6 text-center text-sm">
-        <p>© 2025 Blakeschild & Dukes Ltd | Engineering Value. Delivering Excellence.</p>
+        <p>© 2026 Blakeschild & Dukes Ltd | Engineering Value. Delivering Excellence.</p>
         <p><a href="http://www.blakeschild.com" className="underline">www.blakeschild.com</a></p>
       </footer>
     </div>
