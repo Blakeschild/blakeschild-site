@@ -19,11 +19,12 @@ export const metadata: Metadata = {
   description:
     "Blakeschild & Dukes Ltd provides engineering-led procurement and supply services across energy, infrastructure and agriculture.",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png", // optional for iOS devices
+    icon: "/favicon.ico?v=2",
+    shortcut: "/favicon.ico?v=2",
+    apple: "/apple-touch-icon.png?v=2",
   },
 };
+
 
 export default function RootLayout({
   children,
